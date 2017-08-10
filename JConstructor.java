@@ -22,6 +22,7 @@ public class JConstructor {
     
     JConstructor(int a){
         this();
+       // this(3);  //second time calling is not possible
         System.out.println("1-arg constructo");
     }
     
